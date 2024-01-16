@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Loja de Roupas</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f2f2f2;
+      }
+
+      header {
+        background-color: #333;
+        color: white;
+        padding: 20px;
+        text-align: center;
+      }
+
+      nav {
+        background-color: #f2f2f2;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+      }
+
+      nav a {
+        color: #333;
+        text-decoration: none;
+        padding: 10px;
+      }
+
+      section {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin: 20px;
+      }
+
+      .produto {
+        background-color: white;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+        margin: 10px;
+        padding: 10px;
+        text-align: center;
+        width: 200px;
+      }
+
+      .produto img {
+        width: 100%;
+        height: auto;
+      }
+
+      .produto h3 {
+        font-size: 18px;
+        margin: 10px 0;
+      }
+
+      .produto p {
+        font-size: 14px;
+        color: #999;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Loja de Roupas</h1>
+    </header>
+    <nav>
+      <a href="#">Início</a>
+      <a href="#">Roupas Femininas</a>
+      <a href="#">Roupas Masculinas</a>
+      <a href="#">Acessórios</a>
+      <a href="#">Contato</a>
+    </nav>
+    <section>
+      <div class="produto">
+        <img src="https://picsum.photos/200/300" alt="Produto 1">
+        <h3>Blusa Feminina</h3>
+        <p>R$ 49,90</p>
+      </div>
+      <div class="produto">
+        <img src="https://picsum.photos/200/300" alt="Produto 2">
+        <h3>Camisa Masculina</h3>
+        <p>R$ 59,90</p>
+      </div>
+      <div class="produto">
+        <img src="https://picsum.photos/200/300" alt="Produto 3">
+        <h3>Calça Jeans</h3>
+        <p>R$ 89,90</p>
+      </div>
+    </section>
+  </body>
+</html>
